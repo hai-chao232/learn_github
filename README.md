@@ -2,5 +2,5 @@
 
 ## 📌 GitHub 流程图
 
-！[GitHub 流程图](images/github-push-process.png)
+！[GitHub 流程图](images/learn_github.png)
 
