@@ -10,3 +10,7 @@
 
 #📌 makedown格式添加图片：!(图片名称)[图片位置比如：images/learn_github.png]
 
+#👍添加LICENSE---------->“Add file” → “Create new file” → 文件名填：LICENSE → 点击："Choose a license template"
+
+#😂更改仓库私密 / 公开------------>⚙️ Settings → "General"（默认已选中） → "Danger Zone"（危险区域） → “Change repository visibility”
+
