@@ -1,0 +1,294 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.4 Chrome/138.0.7204.97 Electron/37.2.1 Safari/537.36" version="28.0.4">
+  <diagram name="第 1 页" id="N-cFO-N1UfqbaYbZWMFk">
+    <mxGraphModel dx="983" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c2CH0Qo7M9obde4qKBL8-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="c2CH0Qo7M9obde4qKBL8-2" target="c2CH0Qo7M9obde4qKBL8-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2CH0Qo7M9obde4qKBL8-2" value="创建一个本地文件夹&lt;div&gt;命名目标工程名字&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="60" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="c2CH0Qo7M9obde4qKBL8-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="c2CH0Qo7M9obde4qKBL8-3" target="c2CH0Qo7M9obde4qKBL8-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2CH0Qo7M9obde4qKBL8-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="c2CH0Qo7M9obde4qKBL8-3" target="c2CH0Qo7M9obde4qKBL8-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2CH0Qo7M9obde4qKBL8-3" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;在Git Bash中打开该文件夹&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;执行命令：&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; git init&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="180" y="180" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="c2CH0Qo7M9obde4qKBL8-5" value="此时改文件夹就变成&lt;div&gt;一个本地Git仓库&lt;/div&gt;&lt;div&gt;（这样Git才能追踪文件，并上传到GitHub）&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="177.5" width="260" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="c2CH0Qo7M9obde4qKBL8-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="c2CH0Qo7M9obde4qKBL8-7" target="c2CH0Qo7M9obde4qKBL8-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2CH0Qo7M9obde4qKBL8-7" value="然后就可以把工程相关的文件放进本地Git仓库" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="320" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c2CH0Qo7M9obde4qKBL8-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="c2CH0Qo7M9obde4qKBL8-9" target="c2CH0Qo7M9obde4qKBL8-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2CH0Qo7M9obde4qKBL8-9" value="&amp;nbsp; 在Git Bash中&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; 执行命令：&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;git add .&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;(将&lt;u&gt;当前文件夹下所有&lt;/u&gt;文件添加到Git暂存区)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;或者 git add&lt;i&gt; xxx.x&amp;nbsp; &amp;nbsp;&lt;/i&gt;（将&lt;u&gt;指定的&lt;/u&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 文件添加到Git暂存区）&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="75" y="450" width="370" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c2CH0Qo7M9obde4qKBL8-13" value="&amp;nbsp; 在Git Bash中&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; 执行命令：&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;git commit -m &quot;&lt;i&gt;xxxx&lt;/i&gt;&quot;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; (将Git暂存区的文件提交到本地Git仓库中，&lt;i&gt;xxxx&lt;/i&gt;是添加的提交信息)&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="75" y="580" width="370" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c2CH0Qo7M9obde4qKBL8-15" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="40" as="sourcePoint" />
+            <mxPoint x="40" y="40" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="40" y="680" />
+              <mxPoint x="720" y="680" />
+              <mxPoint x="720" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c2CH0Qo7M9obde4qKBL8-17" value="&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;本地Git仓库&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="55" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c2CH0Qo7M9obde4qKBL8-18" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="780" as="sourcePoint" />
+            <mxPoint x="40" y="780" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="40" y="1420" />
+              <mxPoint x="720" y="1420" />
+              <mxPoint x="720" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c2CH0Qo7M9obde4qKBL8-20" value="" style="endArrow=none;html=1;rounded=0;" parent="1" target="c2CH0Qo7M9obde4qKBL8-19" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="780" as="sourcePoint" />
+            <mxPoint x="40" y="780" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c2CH0Qo7M9obde4qKBL8-19" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;GitHub建远程仓库&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;direction=west;" parent="1" vertex="1">
+          <mxGeometry x="55" y="750" width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c2CH0Qo7M9obde4qKBL8-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="c2CH0Qo7M9obde4qKBL8-21" target="c2CH0Qo7M9obde4qKBL8-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2CH0Qo7M9obde4qKBL8-21" value="New repository" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="325" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c2CH0Qo7M9obde4qKBL8-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="c2CH0Qo7M9obde4qKBL8-22" target="c2CH0Qo7M9obde4qKBL8-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2CH0Qo7M9obde4qKBL8-22" value="&amp;nbsp;Repository name: &lt;i&gt;xxx&lt;/i&gt;&lt;div&gt;&amp;nbsp;Description: &lt;i&gt;xxx&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;&amp;nbsp;&lt;/i&gt;Public / Private&amp;nbsp; &amp;nbsp; ✔&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="305" y="940" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c2CH0Qo7M9obde4qKBL8-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="c2CH0Qo7M9obde4qKBL8-24" target="c2CH0Qo7M9obde4qKBL8-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2CH0Qo7M9obde4qKBL8-24" value="&lt;div style=&quot;line-height: 140%;&quot;&gt;注意剩下的不用勾选&amp;nbsp; &amp;nbsp; &amp;nbsp;😶‍🌫️&lt;div&gt;可以了解这些作用以gitee举例：👍&lt;/div&gt;&lt;div&gt;1.选择语言------&amp;gt;告诉Gitee我们的项目使用的是哪种编程语言&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;有助于Gitee平台推荐相关工具和相关库（不过我们一般不在Gitee或GitHub平台上编程所以没什么必要）&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;其次可以让阅读工程的人一眼看出你用的技术栈&lt;/div&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2.添加.gitignore文件-------&amp;gt;用来忽略编译生成的文件&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;有助于保持仓库干净整洁，避免上传无关文件&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;减少仓库体积&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3.添加开源许可证(LICENSE)------------&amp;gt;比如选择MIT，最宽松，只需保留原作者信息&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;别人就可以使用，修改，分发你的代码，即让别人合法的使用你的项目&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;4.设置模板---------&amp;gt;快速帮你搭建一个项目的基础结构&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;README ：一般我们不勾选，一般&lt;/span&gt;本地Git仓库里的项目&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;会有README，如果勾选上传到远程仓库时会冲突&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="55" y="1040" width="660" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="c2CH0Qo7M9obde4qKBL8-26" value="点击Create repositroy" style="whiteSpace=wrap;html=1;align=center;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="290" y="1330" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c2CH0Qo7M9obde4qKBL8-28" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="35" y="1520" as="sourcePoint" />
+            <mxPoint x="35" y="1520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="35" y="2270" />
+              <mxPoint x="360" y="2270" />
+              <mxPoint x="710" y="2270" />
+              <mxPoint x="715" y="1520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c2CH0Qo7M9obde4qKBL8-29" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;本地仓库连接GitHub仓库&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="75" y="1490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c2CH0Qo7M9obde4qKBL8-30" value="&amp;nbsp; 直接在终端里面输入：&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;div&gt;git remote add origin https://github.com/&lt;i&gt;xxxx&lt;/i&gt;/&lt;i&gt;xxxx&lt;/i&gt;.git&lt;/div&gt;&lt;/div&gt;&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="290" y="1600" width="410" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="c2CH0Qo7M9obde4qKBL8-31" value="&amp;nbsp; 在终端里面输入：&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;git remote set-url origin git@github.com:&lt;i&gt;xxxx&lt;/i&gt;/&lt;i&gt;xxxx&lt;/i&gt;.git&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="290" y="1710" width="410" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5WTbvYbNake8BjfKMJVV-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5WTbvYbNake8BjfKMJVV-1" target="c2CH0Qo7M9obde4qKBL8-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5WTbvYbNake8BjfKMJVV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5WTbvYbNake8BjfKMJVV-1" target="c2CH0Qo7M9obde4qKBL8-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5WTbvYbNake8BjfKMJVV-1" value="两种方式：" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1674" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5WTbvYbNake8BjfKMJVV-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5WTbvYbNake8BjfKMJVV-4" target="5WTbvYbNake8BjfKMJVV-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5WTbvYbNake8BjfKMJVV-4" value="检查网络是否连接成功：" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="2010" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5WTbvYbNake8BjfKMJVV-5" value="&amp;nbsp;输入命令：&lt;div&gt;&amp;nbsp;pin github.com&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="260" y="2010" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5WTbvYbNake8BjfKMJVV-7" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="35" y="2320" as="sourcePoint" />
+            <mxPoint x="35" y="2320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="35" y="2490" />
+              <mxPoint x="360" y="2490" />
+              <mxPoint x="715" y="2490" />
+              <mxPoint x="715" y="2320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5WTbvYbNake8BjfKMJVV-10" value="方式1." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="245" y="1580" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5WTbvYbNake8BjfKMJVV-11" value="方式2." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="245" y="1690" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5WTbvYbNake8BjfKMJVV-12" value="&lt;div style=&quot;line-height: 160%;&quot;&gt;&amp;nbsp; （方式1.-----&amp;gt;通过HTTP连接），网络不稳定时可以换（方式2------&amp;gt;SSH连接）&lt;div&gt;&amp;nbsp; 需要注意的一点是使用第二种方法需要提前配置好SSH公钥，&lt;u&gt;（在这之前需要在 Git Bash 里面提前配置好用户名和邮箱）&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; 在终端输入：&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;ls ~/.ssh/id_rsa.pub&amp;nbsp; ----------------&amp;gt;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;查看SSH密钥位置&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; 如果首次获取在终端输入：&lt;/div&gt;&lt;div&gt;&amp;nbsp; ssh-keygen -o -t rsa -b 4096 -c &quot;&lt;i&gt;xxxx&lt;/i&gt;&quot;&amp;nbsp; ---------------------&amp;gt;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;就会显示已经将SSH保存在哪个位置&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; 然后再GitHub中的 setting----&amp;gt;SSH and GPG keys 添加配置&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1820" width="650" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="5WTbvYbNake8BjfKMJVV-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5WTbvYbNake8BjfKMJVV-13" target="5WTbvYbNake8BjfKMJVV-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5WTbvYbNake8BjfKMJVV-13" value="还可以输入：&lt;div&gt;git remote -v&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="2115" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5WTbvYbNake8BjfKMJVV-14" value="&lt;div style=&quot;line-height: 160%;&quot;&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;&quot;&gt;origin https://github.com/&lt;/span&gt;&lt;i style=&quot;&quot;&gt;xxxx&lt;/i&gt;&lt;span style=&quot;&quot;&gt;/&lt;/span&gt;&lt;i style=&quot;&quot;&gt;xxxx&lt;/i&gt;&lt;span style=&quot;&quot;&gt;.git&lt;/span&gt;&amp;nbsp;(fetch)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;&quot;&gt;origin https://github.com/&lt;/span&gt;&lt;i style=&quot;&quot;&gt;xxxx&lt;/i&gt;&lt;span style=&quot;&quot;&gt;/&lt;/span&gt;&lt;i style=&quot;&quot;&gt;xxxx&lt;/i&gt;&lt;span style=&quot;&quot;&gt;.git&lt;/span&gt;&amp;nbsp;(push)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; github&amp;nbsp;&amp;nbsp;&lt;span style=&quot;&quot;&gt;git@github.com:&lt;/span&gt;&lt;i style=&quot;&quot;&gt;xxxx&lt;/i&gt;&lt;span style=&quot;&quot;&gt;/&lt;/span&gt;&lt;i style=&quot;&quot;&gt;xxxx&lt;/i&gt;&lt;span style=&quot;&quot;&gt;.git&lt;/span&gt;&amp;nbsp;(fetch)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; github&amp;nbsp;&amp;nbsp;&lt;span style=&quot;&quot;&gt;git@github.com:&lt;/span&gt;&lt;i style=&quot;&quot;&gt;xxxx&lt;/i&gt;&lt;span style=&quot;&quot;&gt;/&lt;/span&gt;&lt;i style=&quot;&quot;&gt;xxxx&lt;/i&gt;&lt;span style=&quot;&quot;&gt;.git&lt;/span&gt;&amp;nbsp;(push)&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="260" y="2100" width="400" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5WTbvYbNake8BjfKMJVV-16" value="显示已经连接上的远程仓库；&lt;div&gt;origin / github 是远程仓库别名，后续 push 需要用到&lt;/div&gt;&lt;div&gt;后面的 https / git@ 是连接方式&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="2190" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5WTbvYbNake8BjfKMJVV-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="5WTbvYbNake8BjfKMJVV-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="1880" as="sourcePoint" />
+            <mxPoint x="580" y="1830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5WTbvYbNake8BjfKMJVV-18" value="&amp;nbsp;在终端输入：&amp;nbsp;&lt;div&gt;&amp;nbsp;git config --global user.name&lt;div&gt;&amp;nbsp;git config --global user.email&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1890" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5WTbvYbNake8BjfKMJVV-23" value="&amp;nbsp;在终端输入：&amp;nbsp;&lt;div&gt;&amp;nbsp;git config --global user.name &quot;&lt;i&gt;xxxx&lt;/i&gt;&quot;&lt;div&gt;&amp;nbsp;git config --global user.email &quot;&lt;i&gt;xxxx&lt;/i&gt;&quot;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="590" y="2030" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5WTbvYbNake8BjfKMJVV-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.635;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5WTbvYbNake8BjfKMJVV-18" target="5WTbvYbNake8BjfKMJVV-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5WTbvYbNake8BjfKMJVV-25" value="如果没配置过" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1970" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5WTbvYbNake8BjfKMJVV-26" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="35" y="2320" as="sourcePoint" />
+            <mxPoint x="40" y="2320" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5WTbvYbNake8BjfKMJVV-8" value="本地仓库push到&lt;div&gt;远程仓库&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="2300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5WTbvYbNake8BjfKMJVV-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5WTbvYbNake8BjfKMJVV-27" target="5WTbvYbNake8BjfKMJVV-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5WTbvYbNake8BjfKMJVV-27" value="&amp;nbsp;终端输入：&lt;div&gt;&amp;nbsp;git push origin master&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="110" y="2370" width="205" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="5WTbvYbNake8BjfKMJVV-28" value="&amp;nbsp;将本地仓库 push 到远程仓库&lt;div&gt;&amp;nbsp;不过要注意：Git 和 Gitee 默认master&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 而 GitHub 默认 main&lt;/div&gt;&lt;div&gt;&amp;nbsp; （我现在也不太懂这个区别，先都用master 遇到问题在 AI )&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="2360" width="330" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5WTbvYbNake8BjfKMJVV-30" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="35" y="2560" as="sourcePoint" />
+            <mxPoint x="35" y="2560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="35" y="3100" />
+              <mxPoint x="360" y="3100" />
+              <mxPoint x="710" y="3100" />
+              <mxPoint x="715" y="2560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5WTbvYbNake8BjfKMJVV-31" value="将别人的GitHub仓库Fork&lt;div&gt;到自己的GitHub仓库&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="2540" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5WTbvYbNake8BjfKMJVV-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5WTbvYbNake8BjfKMJVV-32" target="5WTbvYbNake8BjfKMJVV-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5WTbvYbNake8BjfKMJVV-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5WTbvYbNake8BjfKMJVV-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="235.2608695652175" y="2810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5WTbvYbNake8BjfKMJVV-32" value="打开别人的项目页面&lt;div&gt;点击Fork&lt;/div&gt;&lt;div&gt;选择你的GitHub账户&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="2652.5" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="5WTbvYbNake8BjfKMJVV-33" value="&lt;div style=&quot;line-height: 140%;&quot;&gt;&amp;nbsp;你就可以 clone 到&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;本地开发&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;在终端输入：&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;git clone http://github.com/xxxx/xxxx.git&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;或者&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;git clone&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;git@github.com:&lt;/span&gt;&lt;i style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;xxxx&lt;/i&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;/&lt;/span&gt;&lt;i style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;xxxx&lt;/i&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;.git&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="400" y="2635" width="280" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="5WTbvYbNake8BjfKMJVV-35" value="此时这个仓库就出现在你的GitHub仓库中" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="2610" width="225" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5WTbvYbNake8BjfKMJVV-37" value="如果想从原作者那里拉取更新" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="2760" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5WTbvYbNake8BjfKMJVV-38" value="&lt;div style=&quot;line-height: 140%;&quot;&gt;&amp;nbsp;#添加原作者仓库为上游仓库&lt;div&gt;&amp;nbsp;git remote add upstream https://github.com/原作者用户名/项目名.git&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;#查看是否添加成功&lt;/div&gt;&lt;div&gt;&amp;nbsp;git remote -v&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;#从原作者仓库拉取更新到本地仓库&lt;/div&gt;&lt;div&gt;&amp;nbsp;git pull upstream master / main&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;#push 到我们自己的GitHub仓库&lt;/div&gt;&lt;div&gt;&amp;nbsp;git push origin master / main&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="85" y="2810" width="475" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="5WTbvYbNake8BjfKMJVV-39" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="35" y="3160" as="sourcePoint" />
+            <mxPoint x="35" y="3160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="35" y="3700" />
+              <mxPoint x="360" y="3700" />
+              <mxPoint x="710" y="3700" />
+              <mxPoint x="715" y="3160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5WTbvYbNake8BjfKMJVV-40" value="&amp;nbsp;Issue 和 Pull Request" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="3130" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5WTbvYbNake8BjfKMJVV-41" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;我们已经 Fork 了别人的仓库到我们自己的账户仓库，&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;我们在开发这个项目的时候发现了一些问题，即我们想报告原项目问题&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;就用到了 Issue&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="3210" width="445" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5WTbvYbNake8BjfKMJVV-42" value="去别人的仓库点开 Issues -----&amp;gt;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;New Issue&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="3330" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5WTbvYbNake8BjfKMJVV-43" value="这样这个项目的原作者和关注这个项目的人都可以看到这个&amp;nbsp;&lt;div&gt;Issue / PR&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="3360" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5WTbvYbNake8BjfKMJVV-44" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.367;entryY=0.042;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="5WTbvYbNake8BjfKMJVV-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="3290" as="sourcePoint" />
+            <mxPoint x="270" y="3240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5WTbvYbNake8BjfKMJVV-45" value="我们想贡献我们修改后的代码，即想让原作者合并我们修改的代码到他的项目中&lt;div&gt;就用到了PR&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="3540" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5WTbvYbNake8BjfKMJVV-47" value="去别人的仓库点开 Pull Request&amp;nbsp; -----&amp;gt;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;New Pull Request&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="3440" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5WTbvYbNake8BjfKMJVV-48" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.289;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="5WTbvYbNake8BjfKMJVV-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="3540" as="sourcePoint" />
+            <mxPoint x="250" y="3490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5WTbvYbNake8BjfKMJVV-49" value="当然我们在我们自己的仓库也可以记录 Issue &amp;amp; Pull Request&lt;div&gt;更好的记录我们项目的变化&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="3670" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5WTbvYbNake8BjfKMJVV-50" value="仓库中的 Issue 👉&lt;div&gt;属于某个具体的项目，用来讨论该项目的问题和建议&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;主页面上的 Issue&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;👉&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;是我们自己的总览视图，展示你在所以项目中参与的 Issue (无论是你提的，评论的，还是@你的）&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="3220" width="180" height="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
