@@ -14,3 +14,9 @@
 
 #😂更改仓库私密 / 公开------------>⚙️ Settings → "General"（默认已选中） → "Danger Zone"（危险区域） → “Change repository visibility”
 
+<<<<<<< HEAD
+=======
+#👍pull 指定文件-------->git fetch origin
+                         git checkout origin -- xxx.xx
+
+>>>>>>> 731fdc5 (三次添加)
